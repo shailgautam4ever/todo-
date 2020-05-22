@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
+  background-image: linear-gradient(-45deg, #2980b9, #2c3e50);
   min-height: 100vh;
+}
+
+.main{
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input {
+  width: 15rem;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background-color: #eee;
+
+}
+
+button{
+  height: 40px;
+  width: 100px;
+  background-color: lightgreen;
+  color:white;
+  border-radius: 10px;
+  
+  
+}
+
+h1{
+  color:white;
+  /* font-family:  */
+}
+.single-item{
+  display: flex;
+  width: 25rem;
+  align-items: center;
+  margin-top: 10px;
+  background-color: orange;
+}
+.single-item > span{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.single-item > button {
+  border: none;
+  border-radius: 0px;
+  background-color: orangered;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.single-item > button:hover{
+  background-color: red;
+}
+.p{
+  background-color: orange;
+  padding: 10px;
+  width: 25rem;
+  margin: 10px;
 }
