@@ -1,7 +1,7 @@
-body{
+/* body{
   background-image: linear-gradient(-45deg, #2980b9, #2c3e50);
   min-height: 100vh;
-}
+} */
 
 .main{
   display: flex;
@@ -9,6 +9,10 @@ body{
   padding-left: 20px;
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input, select, option{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: forte; */
 }
 
 .input {
@@ -21,8 +25,8 @@ body{
 
 }
 
-button{
-  height: 40px;
+.action-btn{
+  min-height: 40px;
   width: 100px;
   background-color: lightgreen;
   color:white;
@@ -37,29 +41,42 @@ h1{
 }
 .single-item{
   display: flex;
-  width: 25rem;
-  align-items: center;
+  width: 50rem;
   margin-top: 10px;
   background-color: orange;
 }
 .single-item > span{
   flex: 1;
   padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
   text-align: center;
   color: white;
 }
 .single-item > button {
   border: none;
   border-radius: 0px;
+  width: 50px;
   background-color: orangered;
   cursor: pointer;
 }
 .single-item > button:hover{
   background-color: red;
+  color: #fff;
 }
-.p{
-  background-color: orange;
-  padding: 10px;
-  width: 25rem;
-  margin: 10px;
+p{
+  /* color:white; */
+}
+
+.single-item-high{
+  /* background-color: red; */
+}
+.single-item-medium{
+  background-color: yellow;
+}
+.single-item-medium > span{
+  color: black;
+}
+.single-item-low{
+  background-color: yellowgreen;
 }

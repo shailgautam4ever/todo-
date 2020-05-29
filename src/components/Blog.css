@@ -1,0 +1,34 @@
+.display {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: pink;
+    flex-direction: column;
+}
+
+.action-blog{
+    min-height: 40px;
+    width: 100px;
+    background-color: orange;
+    color:white;
+    border-radius: 10px;    
+}
+
+.create-post{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-post{
+    background-color: white;
+}
+.single-post{
+    margin: 10px;
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
